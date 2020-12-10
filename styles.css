@@ -1,0 +1,44 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+  }
+  
+  
+  .flexbox-item {
+      padding: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+      .flexbox {
+          display: flex;
+      }
+
+      .flexbox-item:first-child {
+        margin-right: 50px;
+    }
+  }
+
+
+  .flexbox-item:nth-child(1) {
+    background-color: yellow;
+    flex-basis: 30%;
+  }
+  
+  .flexbox-item:nth-child(2) {
+    background-color: red;
+    flex-basis: 70%;
+  }
+  
+  .flexbox-item:nth-child(3) {
+    background-color: aqua
+  }
+  
+  .flexbox-item:nth-child(4) {
+    background-color: blue
+  }
